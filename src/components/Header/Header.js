@@ -2,7 +2,8 @@ import classes from './Header.module.css'
 function Header() {
     return ( 
         <header className={classes.Header}>
-            Hello world!
+            <h1>САНТЕХНИК 24/7 В АЛМАТЫ</h1>
+            <p>Все виды сантехнических услуг — недорого</p>
         </header>
      );
 }
