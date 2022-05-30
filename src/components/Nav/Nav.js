@@ -1,23 +1,13 @@
 import classes from "./Nav.module.css";
+import NavItem from "./NavItem/NavItem";
 function Nav() {
   return (
-    <nav className={classes.Nav}>
-      <div>example</div>
-      <ul>
-        <li>
-          <a href="/">Главная</a>
-        </li>
-        <li>
-          <a href="/">Услуги</a>
-        </li>
-        <li>
-          <a href="/">О нас</a>
-        </li>
-        <li>
-          <a href="/">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+    <ul className={classes.Nav}>
+      <NavItem url="/">Главная</NavItem>
+      <NavItem url="/services">Услуги</NavItem>
+      <NavItem url="/about">О нас</NavItem>
+      <NavItem url="/contacts">Контакты</NavItem>
+    </ul>
   );
 }
 
