@@ -1,5 +1,6 @@
 import classes from "./Header.module.css";
 import headerImage from "../../assets/san-1.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className={classes.Header}>
@@ -8,9 +9,9 @@ function Header() {
         <div className={classes.Header__info}>
           <h1>САНТЕХНИК 24/7 В БИШКЕК</h1>
           <p>Все виды сантехнических услуг — недорого</p>
-            <button className={classes.Header__button}>
+            <a href='https://www.google.com/' className={classes.Header__button}>
                 +996123456789
-            </button>
+            </a>
         </div>
       </div>
     </header>
