@@ -1,6 +1,5 @@
 import classes from "./Header.module.css";
 import headerImage from "../../assets/san-1.png";
-import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className={classes.Header}>
