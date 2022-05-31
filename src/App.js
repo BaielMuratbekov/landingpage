@@ -4,6 +4,7 @@ import Drawer from './components/Drawer/Drawer'
 import Footer from './components/Footer/Footer'
 import Servis from "./components/Servis/Servis";
 import { useState } from "react";
+import About from "./components/About/About";
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -17,6 +18,7 @@ function App() {
         <Drawer open={drawerOpen} toggle={toggleDrawer} />
         <Header />
         <Servis />
+        <About/>
         <Footer/>
     </div>
   );
