@@ -1,9 +1,9 @@
-import { useState } from "react";
-import Drawer from "./components/Drawer/Drawer";
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Toolbar from "./components/Toolbar/Toolbar";
-
+import Toolbar from './components/Toolbar/Toolbar'
+import Drawer from './components/Drawer/Drawer'
+import Footer from './components/Footer/Footer'
+import Servis from "./components/Servis/Servis";
+import { useState } from "react";
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -12,10 +12,12 @@ function App() {
   }
   return (
     <div className="App">
-      <Toolbar toggleDrawer={toggleDrawer}/>
-      <Drawer open={drawerOpen} toggle={toggleDrawer} />
-      <Header/>
-      <Footer/>
+      
+        <Toolbar toggleDrawer={toggleDrawer} />
+        <Drawer open={drawerOpen} toggle={toggleDrawer} />
+        <Header />
+        <Servis />
+        <Footer/>
     </div>
   );
 }

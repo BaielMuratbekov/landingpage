@@ -1,0 +1,22 @@
+.Services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Services__title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 20px;}
+.Services__left{
+    text-align: left;
+}
+.Services > p{
+    font-weight: 400;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
+}

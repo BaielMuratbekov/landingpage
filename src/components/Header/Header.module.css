@@ -1,24 +1,28 @@
 .Header {
-    background-color: rgb(255, 249, 242);
+    background-image: url(../../assets/san-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 70vh;
-    
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-shadow: 0 0 20px rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.Header__img{
-    max-width: 450px;
-    overflow: hidden;
-    object-fit: cover;
-} 
-.Header__item {
-    display: flex;
-    min-height: 60vh;
-    justify-content: space-around;
-    align-items: center;
+.Header__item .margin{
+    min-height: 100px;
+    width: 100%;
+}
+.Header__item span{
+    font-size: 24px;
+}
+.Header__item span:first-child{
+    margin-right: 10px;
 }
 .Header__button{
-    margin-top: 5rem;
+    margin-top: 100px;
     background-color: orangered;
     cursor: pointer;
     border: none;
@@ -28,17 +32,29 @@
     font-weight: bold;
     color: white;
     transition: all .5s;
+
 }
 .Header__button:hover{
     background-color: rgb(179, 179, 179);
     color: blue;
 }
-.Header__info h1{
-    font-size: 2.5rem;
+
+.Header__item{
+    text-align: center;
 }
-.Header__info p {
-    margin-top: 1rem;
-    font-size: 1rem;
+.Header__item h1{
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 53px;
+    text-transform: capitalize;
+    letter-spacing: -0.03em;
+}
+.Header__item p {
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
 }
 @media (max-width: 670px) {
     .Header__item {
