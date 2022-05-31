@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
     
 }
 .Header__item .margin{
@@ -57,11 +58,10 @@
     font-size: 28px;
 }
 @media (max-width: 670px) {
-    .Header__item {
-      flex-direction: column;
-      justify-content: center;
+    .Header{
+        margin: 15px;
     }
-    .Header__info{
+    .Header__item{
         text-align: center;
     }
     .Header__button{
