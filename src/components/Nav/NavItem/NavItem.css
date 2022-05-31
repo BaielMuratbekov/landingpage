@@ -2,13 +2,13 @@
 .NavItem a {
     display: block;
     padding: 1rem 1.5rem;
-    color: #333;
+    color: #fff;
     font-size: 1.2rem;
     text-decoration: none;
     border-bottom: 3px solid transparent;
   }
   .NavItem a.active {
-    border-color: rgb(0, 0, 0);
+    border-color: #fff;
   }
   .NavItem a:hover {
     background-color: rgba(255, 255, 255, .1);
