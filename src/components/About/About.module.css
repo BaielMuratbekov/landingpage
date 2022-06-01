@@ -96,6 +96,7 @@
 }
 
 @media (max-width: 670px) {
+    
     .About__left {
         padding: 40px 0 0 0;
     }
@@ -110,6 +111,7 @@
     .About__item{
         flex-direction: column  ;
         text-align: center;
+        margin: 10px;
     }
     .About__info:not(:last-child) {
         border-right: none;
