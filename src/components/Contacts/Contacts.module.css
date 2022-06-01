@@ -1,0 +1,10 @@
+.Contacts{
+    background-color: #172d5e;
+    margin-top: 50px;
+}
+.Contacts__title{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Servis from "./components/Servis/Servis";
 import { useState } from "react";
 import About from "./components/About/About";
+import Contacts from "./components/Contacts/Contacts";
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -19,6 +20,7 @@ function App() {
         <Header />
         <Servis />
         <About/>
+        <Contacts/>
         <Footer/>
     </div>
   );
