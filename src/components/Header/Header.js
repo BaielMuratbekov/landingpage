@@ -6,7 +6,7 @@ function Header() {
         <h1>САНТЕХНИК 24/7 В БИШКЕК</h1>
         <p>Все виды сантехнических услуг — недорого</p>
         <div className={classes.margin}></div>
-        <a href="https://www.google.com/" className={classes.Header__button}>
+        <a href="https://api.whatsapp.com" className={classes.Header__button}>
           <span className={classes.icon}>
             <svg
               aria-hidden="true"
