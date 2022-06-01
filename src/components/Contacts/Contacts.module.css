@@ -116,6 +116,13 @@
 }
 
 @media (max-width: 670px) {
+    .ContactList{
+        padding: 20px;
+    }
+    .ContactList li svg{
+        width: 30px;
+        height: 30px;
+    }
     .Contacts__left img {
         max-width: 400px;
     }
