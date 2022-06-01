@@ -66,7 +66,7 @@ function Contacts() {
                   <p>Водоснабжения, перепланировка</p>
                 </li>
               </ul>
-              <a href='/'>Заказать </a>
+              <a href='/' target="_blank">Заказать </a>
             </div>
             <div className={classes.ContactList}>
               <h3>УСТРАНЕНИЕ</h3>
@@ -92,7 +92,7 @@ function Contacts() {
                   <p>Протечки раковины, ванны, смесителя, унитаза, батареи</p>
                 </li>
               </ul>
-              <a href='/'>Заказать </a>
+              <a href='/' target="_blank">Заказать </a>
             </div>
             <div className={classes.ContactList}>
               <h3>СМЕСИТЕЛИ</h3>
@@ -118,7 +118,7 @@ function Contacts() {
                   <p>Демонтаж смесителя</p>
                 </li>
               </ul>
-              <a href='/'>Заказать </a>
+              <a href='/' target="_blank">Заказать </a>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@ function Contacts() {
             </div>
           </div>
           <div className={classes.ContactList}>
-            <a href='/'>НАПИСАТЬ НА WHATSAPP</a>
+            <a href='https://api.whatsapp.com' target="_blank">НАПИСАТЬ НА WHATSAPP</a>
           </div>
         </div>
       </div>

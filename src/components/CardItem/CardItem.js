@@ -8,7 +8,7 @@ function CardItem({ card }) {
         <div className={classes.CardItem__ditalis}>
           <h4 className={classes.CardItem__title}>{card.title}</h4>
           <p>{card.description}</p>
-          <a href={card.url} className={classes.CardItem__link}>
+          <a href={card.url} target="_blank" className={classes.CardItem__link}>
             <span>{card.urlTitle}</span>
           </a>
         </div>
