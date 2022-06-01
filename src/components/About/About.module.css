@@ -31,7 +31,9 @@
     margin-bottom: 25px;
     line-height: 1.2;
 }
-
+.About__right ul{
+    list-style: disc;
+}
 .About__right>p {
     font-family: Helvetica, sans-serif;
     margin-bottom: 1.5rem;
@@ -88,9 +90,6 @@
     margin-left: 15px;
     font-size: 20px;
     font-weight: bold;
-}
-.About__table ul{
-    list-style: none;
 }
 .About__table{
     display: flex;

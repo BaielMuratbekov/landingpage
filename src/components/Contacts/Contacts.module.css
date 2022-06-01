@@ -1,10 +1,141 @@
-.Contacts{
+.Contacts {
     background-color: #172d5e;
     margin-top: 50px;
+    padding-top: 30px;
 }
-.Contacts__title{
+
+.Contacts__title {
     text-align: center;
     line-height: 1.5;
     font-weight: 700;
     font-size: 1.5rem;
+
+}
+
+.Contacts__info {
+    display: flex;
+    color: #000;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Contacts__info li {
+    width: 320px;
+    text-align: left;
+}
+
+.ContactList {
+    margin: 10px;
+    padding: 40px 40px 20px 40px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.ContactList h3 {
+    text-transform: uppercase;
+    color: orangered;
+}
+
+.ContactList li {
+    border-bottom: 2px solid gainsboro;
+    font-size: 15px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.ContactList li svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    color: green;
+}
+
+.ContactList a {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: orangered;
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+}
+
+.Contacts__help {
+    color: #000;
+    background-color: #fff;
+}
+
+.Contacts__help__title {
+    margin-top: 40px;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Contacts__help__title h2 {
+    font-size: 2rem;
+}
+
+.Contacts__help__item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Contacts__help__item li svg {
+    color: rgb(255, 107, 53);
+    font-size: 17px;
+    
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.Contacts__help__item li p {
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.Contacts__help__item li a {
+    color: blue;
+    
+}
+
+.Contacts__help__item li {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.Contacts__left img {
+    width: 500px;
+}
+
+@media (max-width: 670px) {
+    .Contacts__left img {
+        max-width: 400px;
+    }
+    .Contacts__help__item li {
+        font-size: 15px;
+    }
+    .Contacts__help__item li p{
+        font-size: 20px;
+    }
+    .Contacts__help__item li svg {
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 399px) {
+    .Contacts__left img {
+        max-width: 300px;
+    }
+
+    
 }
