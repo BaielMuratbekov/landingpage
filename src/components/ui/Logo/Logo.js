@@ -2,7 +2,7 @@ import "./Logo.css";
 
 function Logo() {
   return (
-    <div className="Logo">САНТЕХНИК</div>
+    <div className="Logo">PODPITKA</div>
   );
 }
 

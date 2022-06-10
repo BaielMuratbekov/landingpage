@@ -66,7 +66,7 @@ function Contacts() {
                   <p>Водоснабжения, перепланировка</p>
                 </li>
               </ul>
-              <a href='/'>Заказать </a>
+              <a href='tel:0708507590'>Заказать </a>
             </div>
             <div className={classes.ContactList}>
               <h3>УСТРАНЕНИЕ</h3>
@@ -92,7 +92,7 @@ function Contacts() {
                   <p>Протечки раковины, ванны, смесителя, унитаза, батареи</p>
                 </li>
               </ul>
-              <a href='/'>Заказать </a>
+              <a href='tel:0708507590'>Заказать </a>
             </div>
             <div className={classes.ContactList}>
               <h3>СМЕСИТЕЛИ</h3>
@@ -118,7 +118,7 @@ function Contacts() {
                   <p>Демонтаж смесителя</p>
                 </li>
               </ul>
-              <a href='/'>Заказать </a>
+              <a href='tel:0708507590'>Заказать </a>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ function Contacts() {
                   <p>Свяжитесь с нами</p>
                 </li>
                 <li>
-                  Позвоните на номер +7 771 408 53 07 или
+                  Позвоните на номер +996777803272 или
                   напишите нам на WhatsApp
                 </li>
                 <li>
