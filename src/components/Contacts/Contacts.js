@@ -160,7 +160,7 @@ function Contacts() {
             </div>
           </div>
           <div className={classes.ContactList}>
-            <a href='https://api.whatsapp.com' >НАПИСАТЬ НА WHATSAPP</a>
+            <a href='https://wa.me/message/47EN5KTX3B2HM1' >НАПИСАТЬ НА WHATSAPP</a>
           </div>
         </div>
       </div>
